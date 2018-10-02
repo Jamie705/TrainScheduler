@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/wallhaven278915.jpg");
+    background-repeat: no-repeat;
+}
+
+#tableContainer, .jumbotron, #trainForm {
+    opacity: 0.90;
+    filter: alpha(opacity=30);
+}
+
+.cHeader, #jHeader {
+    background-color: rgb(210,218,236);
+    opacity: 0.85;
+    filter: alpha(opacity=20);
+}

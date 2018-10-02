@@ -117,6 +117,7 @@ var database = firebase.database();
             $("<td>").text(firstTrainTime),
             $("<td>").text(frequency),
             $("<td>").text(nextTrainFormated),
+            $("<td>").text(tMinutesTillTrain),
             $("<td>").append($("<button>Delete</button>").attr("id", "delete")),
         );
         // Append the new row to the table
